@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Anuario</title>
+		<meta name="description" content="Anuario para la escuela X" />
+		<meta name="keywords" content="google getting started gallery, image gallery, image grid, template, masonry" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<span>Anuario <span class="bp-icon bp-icon-about" data-content="Da click en las imágenes para verlas en un tamaño superior."></span></span>
+				<h1>Grupo XXXX</h1>
+			</header>
+			<div id="grid-gallery" class="grid-gallery">
+				<section class="grid-wrap">
+					<ul class="grid">
+						<li class="grid-sizer"></li><!-- for Masonry column width -->
+						<li>
+							<figure>
+								<img src="img/thumb/1.png" alt="img01"/>
+								<figcaption><h3>Nombre</h3><p>Descripción</p></figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/thumb/2.png" alt="img02"/>
+								<figcaption><h3>Nombre</h3><p>Descripción</p></figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/thumb/3.png" alt="img03"/>
+								<figcaption><h3>Nombre</h3><p>Descripción</p></figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/thumb/4.png" alt="img04"/>
+								<figcaption><h3>Nombre</h3><p>Descripción</p></figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/thumb/5.png" alt="img05"/>
+								<figcaption><h3>Nombre</h3><p>Descripción</p></figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/thumb/6.png" alt="img06"/>
+								<figcaption><h3>Nombre</h3><p>Descripción</p></figcaption>
+							</figure>
+						</li>
+					</ul>
+				</section><!-- // grid-wrap -->
+				<section class="slideshow">
+					<ul>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Nombre 1</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit earum debitis reprehenderit molestiae tenetur dicta enim hic. Accusantium praesentium quas architecto, consequatur id quae maiores dignissimos perspiciatis esse tempore.</p>
+								</figcaption>
+								<img src="img/large/1.jpg" alt="img01"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Nombre 2</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non obcaecati facilis nam aliquid assumenda, tempore perferendis odit animi. Repellendus nisi in rerum, neque ea esse fugiat rem, cupiditate vitae.</p>
+								</figcaption>
+								<img src="img/large/2.jpg" alt="img02"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Nombre 3</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ipsa laborum fugit eos exercitationem, rerum quaerat illo facere, dicta repellendus nostrum molestias quod voluptate amet placeat incidunt id dignissimos in.</p>
+								</figcaption>
+								<img src="img/large/3.jpg" alt="img03"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Nombre 4</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus hic minima eaque voluptates deserunt maiores nobis fugiat aspernatur non, exercitationem, sapiente tempora accusantium labore optio. Provident, harum minima vitae.</p>
+								</figcaption>
+								<img src="img/large/4.jpg" alt="img04"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Nombre 5</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum neque sapiente totam rem culpa beatae minima magnam excepturi iusto unde eius possimus laborum quos modi, perferendis asperiores, quidem reiciendis dolore.</p>
+								</figcaption>
+								<img src="img/large/5.jpg" alt="img05"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Nombre 6</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat praesentium voluptatibus tempora, minima nihil asperiores illum sint accusamus dignissimos quisquam, sit laboriosam sed odit reprehenderit earum commodi, inventore dolorum libero?</p>
+								</figcaption>
+								<img src="img/large/6.jpg" alt="img06"/>
+							</figure>
+						</li>
+					</ul>
+					<nav>
+						<span class="icon nav-prev"></span>
+						<span class="icon nav-next"></span>
+						<span class="icon nav-close"></span>
+					</nav>
+					<div class="info-keys icon">Navigate with arrow keys</div>
+				</section><!-- // slideshow -->
+			</div><!-- // grid-gallery -->
+		</div>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpGridGallery.js"></script>
+		<script>
+			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+		</script>
+	</body>
+</html>
