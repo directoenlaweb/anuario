@@ -20,11 +20,11 @@ var substringMatcher = function(strs) {
   };
 };
 
-var nombres = ['Daniel', 'Javier', 'Pedro', 'Saul', 'Marco', 'Kathia', 'Mariel', 'Aline', 'Alberto', 'Erick', 'Ernesto'];
- 
+var nombres = ['Daniel: Grupo Alfa', 'Javier: Grupo Beta', 'Pedro', 'Saul', 'Marco', 'Kathia', 'Mariel', 'Aline', 'Alberto', 'Erick', 'Ernesto'];
+
 $('#nombres .typeahead').typeahead({
   hint: true,
-  highlight: true,
+  highlight: false,
   minLength: 1
 },
 {
