@@ -18,5 +18,6 @@ $('#nombre .typeahead').typeahead({
 });
 
 $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
-  window.alert('Selection: ' + suggestion);
+  //window.alert('Selection: ' + suggestion);
+  location.href = " http://anuario.azurewebsites.net/ejemplo6/samples/magazine/index.html"
 });
